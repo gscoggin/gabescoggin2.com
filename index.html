@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+    <link rel="stylesheet" href="main.css"> <!-- Link to the CSS file -->
 <head>
-    <title>A Meaningful Page Title</title>
+    <title>Coin Flip</title>
+    <link rel="icon" href="assets/heads.png">
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<h1>Coin Flip</h1>
+<p>Click the coin to start.</p>
+
+ <b>    
+    <img  src="assets/heads.png" alt="Coin" width="300" height="300" id="Coin" onclick="flipCoin()">
+</b>
+
+<p> 
+    <h4 id="Result" onclick="printResult()">Waiting...</h4>
+</p>
 
 </body>
 </html>
